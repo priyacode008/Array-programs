@@ -1,17 +1,10 @@
-import java.util.*;
-class Secondlarge{
+public class Secondlarge{
     public static void main(String [] args){
-        Scanner sc=new Scanner (System.in);
-        int t,i,j,n;
-        System.out.println("enter the array size");
-        n=sc.nextInt();
-        int a[]=new int[n];
-        System.out.println("enter the array value");
-        for(i=0;i<n;i++){
-            a[i]=sc.nextInt();
-        }
-        for(i=0;i<n;i++){
-            for(j=i+1;j<n;j++){
+
+        int t,i,j,a[]={10,22,44,55,88};
+    
+        for(i=0;i<a.length;i++){
+            for(j=i+1;j<a.length;j++){
                 t=a[i];
                if( a[i]>a[j]);
                 a[i]=t;

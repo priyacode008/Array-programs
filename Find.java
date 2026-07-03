@@ -1,5 +1,5 @@
 
-class Find{
+public class Find{
     public static void main(String args []){
         int n[]={2,3,4,5,6,8},i,c=0,s=8;
    
