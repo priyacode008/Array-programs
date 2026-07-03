@@ -1,24 +1,18 @@
-import java.util.*;
+
 class Remove{
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int i,j,n;
-        System.out.println("enter the array size");
-        n=sc.nextInt();
-        int a[]=new int[n];
-        System.out.println("enter the array value");
-        for(i=0;i<n;i++){
-            a[i]=sc.nextInt();
-        }
+        
+        int i,j,n[]={1,2,2,3,4,5};
+       
         System.out.println("remove duplicate number=");
-        for(i=0;i<n;i++){
+        for(i=0;i<n.length;i++){
             for(j=0;j<i;j++){
-                if(a[i]==a[j]){
+                if(n[i]==n[j]){
                     break;
                 }
             }
                 if(j==i){
-                    System.out.println(a[i]);
+                    System.out.println(n[i]);
                 }
         }
 
