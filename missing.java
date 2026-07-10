@@ -10,4 +10,4 @@ public class missing{
        int missing =total-sum;
         System.out.print(missing+" ");
     }
-}   
+}    
